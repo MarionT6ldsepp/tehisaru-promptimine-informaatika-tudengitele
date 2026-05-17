@@ -1,6 +1,6 @@
 # Mudelite võrdluse kokkuvõte
 
-Bakalaureusetöös võrreldi nelja laialdaselt kasutatavat tehisaru keskkonda: ChatGPT, Claude, Gemini ja Microsoft Copilot. Võrdluse eesmärk ei olnud koostada mudelite üldist pingerida, vaid uurida, kuidas erinevad tehisaru keskkonnad tulevad toime informaatika õppekava ülesannetega ning kuidas prompti sõnastus vastuste kvaliteeti mõjutab.
+Bakalaureusetöös võrreldi nelja laialdaselt kasutatavat tehisaru keskkonda: ChatGPT, Claude, Gemini ja Microsoft Copilot. Võrdluse eesmärk oli uurida, kuidas erinevad tehisaru keskkonnad tulevad toime informaatika õppekava ülesannetega ning kuidas prompti sõnastus vastuste kvaliteeti mõjutab.
 
 Katsetustes ilmnes, et vastuse kvaliteet sõltus nii ülesande tüübist, kasutatud mudelist kui ka prompti täpsusest. Lihtsate küsimuste puhul võis lühike prompt olla piisav, kuid keerukamate ülesannete korral muutusid oluliseks kontekst, roll, väljundiformaat ja kasutaja eesmärgi selge sõnastamine.
 
