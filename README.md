@@ -39,3 +39,11 @@ Hästi koostatud prompt ei taga alati veatut vastust, kuid aitab saada põhjalik
 Tehisaru mudelid ja nende võimekus muutuvad kiiresti. Seetõttu ei ole siin esitatud näited mõeldud lõpliku hinnanguna konkreetsetele mudelitele, vaid praktiliste näidetena sellest, kuidas prompti sõnastus võib vastuse kvaliteeti mõjutada.
 
 Tehisaru vastuseid tuleb alati kriitiliselt kontrollida, eriti matemaatiliste arvutuste, ajakohaste faktide, seadusandluse, andmeturbe ja programmeerimisülesannete puhul.
+
+## Täispikk bakalaureusetöö
+
+Täispikk bakalaureusetöö on kättesaadav Tartu Ülikooli arvutiteaduse instituudi lõputööde registris.
+
+Kui soovid tutvuda töö teoreetilise tausta, metoodika, katsetuste täpsema kirjelduse ja kasutatud kirjandusega, saab tervet tööd lugeda lõputööde registrist:
+
+[Tehisaru prompti kirjutamise soovitused informaatika üliõpilastele](https://thesis.cs.ut.ee/1c750a73-19d8-49fb-adb1-abf7e07c7014)
