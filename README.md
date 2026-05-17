@@ -1,4 +1,4 @@
-# tehisaru prompti kirjutamise soovitused informaatika tudengitele
+# Tehisaru prompti kirjutamise soovitused informaatika tudengitele
 Praktilised promptimise näited, katsetulemused ja soovitused informaatika üliõpilastele tehisaru kasutamiseks õppetöös.
 
 See repositoorium koondab praktilisi promptimise näiteid, katsetuste kokkuvõtteid ja soovitusi, mis valmisid minu Tartu Ülikooli informaatika bakalaureusetöö „Tehisaru prompti kirjutamise soovitused informaatika üliõpilastele” raames.
