@@ -1,4 +1,4 @@
-# Promptimall: samm-sammult lahendus
+# Promptimall: sammsammult lahendus
 
 ## Eesmärk
 
@@ -27,7 +27,7 @@ Palun:
 ## Lühem variant
 
 ```txt
-Lahenda järgmine ülesanne samm-sammult. Selgita kasutatud meetodit, näita olulisi vaheetappe ja anna lõpus lõppvastus.
+Lahenda järgmine ülesanne sammsammult. Selgita kasutatud meetodit, näita olulisi vaheetappe ja anna lõpus lõppvastus.
 
 Ülesanne:
 [lisa ülesande tekst]
