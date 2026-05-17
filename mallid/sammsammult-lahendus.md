@@ -1,10 +1,10 @@
-# Promptimall: sammsammult lahendus
+# Prompti mall: sammsammult lahendus
 
 ## Eesmärk
 
-Seda promptimalli saab kasutada ülesannete puhul, kus õppimise seisukohalt on oluline näha lahenduskäiku, mitte ainult lõppvastust. Mall sobib näiteks matemaatika, algoritmide, andmebaaside ja programmeerimisülesannete jaoks.
+Seda prompti malli saab kasutada ülesannete puhul, kus õppimise seisukohalt on oluline näha lahenduskäiku, mitte ainult lõppvastust. Mall sobib näiteks matemaatika, algoritmide, andmebaaside ja programmeerimisülesannete jaoks.
 
-## Promptimall
+## Prompti mall
 
 ```txt
 Käitu [aine/valdkonna] õppejõuna.
