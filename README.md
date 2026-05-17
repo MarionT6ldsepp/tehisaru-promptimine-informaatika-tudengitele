@@ -12,10 +12,10 @@ Repositooriumi eesmärk on näidata, kuidas prompti sõnastus mõjutab tehisaru 
 
 ## Sisu
 
-- `prompts/` – esialgsed ja täiustatud promptid eri ülesandetüüpide jaoks
-- `templates/` – üldised promptimallid õppimiseks ja ülesannete lahendamiseks
-- `results/` – katsetuste peamised tulemused ja järeldused
-- `thesis-summary.md` – bakalaureusetöö lühikokkuvõte
+- `luhikokkuvote.md` – bakalaureusetöö lühikokkuvõte
+- `tulemused/` – katsetuste peamised tulemused ja järeldused
+- `promptid/` – töös kasutatud promptid ja nende põhjal koostatud praktilised soovitused
+- `mallid/` – üldised prompti mallid õppimiseks ja ülesannete lahendamiseks
 
 ## Katsetatud tehisaru keskkonnad
 
@@ -30,7 +30,9 @@ Katsetused viidi läbi informaatika õppekava ülesannete põhjal, sealhulgas al
 
 ## Peamine järeldus
 
-Lihtsate ja konkreetsete küsimuste puhul võib lühike prompt olla piisav. Keerukamate ülesannete korral muutuvad oluliseks kontekst, roll, väljundiformaat, piirangud ja vajaduse korral iteratiivne täpsustamine. Hästi koostatud prompt ei taga alati veatut vastust, kuid aitab saada põhjalikuma, kontrollitavama ja õppimise seisukohalt kasulikuma tulemuse.
+Lihtsate ja konkreetsete küsimuste puhul võib lühike prompt olla piisav. Keerukamate ülesannete korral muutuvad oluliseks kontekst, roll, väljundiformaat, piirangud ja vajaduse korral iteratiivne täpsustamine.
+
+Hästi koostatud prompt ei taga alati veatut vastust, kuid aitab saada põhjalikuma, kontrollitavama ja õppimise seisukohalt kasulikuma tulemuse.
 
 ## Märkus
 
