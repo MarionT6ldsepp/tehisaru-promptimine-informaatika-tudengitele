@@ -10,7 +10,7 @@ Repositooriumi eesmärk on näidata, kuidas prompti sõnastus mõjutab tehisaru 
 
 ## Sisu
 
-- `lühikokkuvote.md` – bakalaureusetöö lühikokkuvõte
+- `lühikokkuvõte.md` – bakalaureusetöö lühikokkuvõte
 - `tulemused/` – katsetuste peamised tulemused ja järeldused
 - `promptid/` – töös kasutatud promptid ja nende põhjal koostatud praktilised soovitused
 - `mallid/` – üldised prompti mallid õppimiseks ja ülesannete lahendamiseks
