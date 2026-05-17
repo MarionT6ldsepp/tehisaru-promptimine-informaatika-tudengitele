@@ -7,7 +7,9 @@
 
 ## Töö eesmärk
 
-Bakalaureusetöö eesmärk oli uurida, kuidas tehisaru mudelite vastuste kvaliteet sõltub ülesande tüübist, kasutatavast mudelist ja kasutaja sisendi ehk prompti sõnastusest. Töö praktiline eesmärk oli koostada soovitused informaatika üliõpilastele tehisaru teadlikumaks ja efektiivsemaks kasutamiseks õppetöös.
+Bakalaureusetöö eesmärk oli uurida, kuidas tehisaru mudelite vastuste kvaliteet sõltub ülesande tüübist, kasutatavast mudelist ja kasutaja sisendi ehk prompti sõnastusest.
+
+Töö praktiline eesmärk oli koostada soovitused informaatika üliõpilastele tehisaru teadlikumaks ja efektiivsemaks kasutamiseks õppetöös.
 
 ## Uurimisküsimused
 
@@ -29,11 +31,13 @@ Lisaks võrreldi tasuta ja tasulisi mudeliversioone pildipõhiste ülesannete, a
 
 - Lihtsate ja täpsete küsimuste puhul võib lühike prompt olla piisav.
 - Keerukamate ülesannete puhul parandasid vastuse kvaliteeti konteksti lisamine, rolli määramine, väljundiformaadi täpsustamine ja iteratiivne promptimine.
-- Matemaatikaülesannetes ei ole oluline ainult lõppvastus, vaid ka lahenduskäigu nähtavus ja kontrollitavus.
-- Andmebaasiülesannetes võib konteksti puudumine muuta vastuse kasutuskõlbmatuks, sest mudel võib hakata ise oletama tabelite ja veergude nimesid.
+- Matemaatika ülesannetes ei ole oluline ainult lõppvastus, vaid ka lahenduskäigu nähtavus ja kontrollitavus.
+- Andmebaasi ülesannetes võib konteksti puudumine muuta vastuse kasutuskõlbmatuks, sest mudel võib hakata ise oletama tabelite ja veergude nimesid.
 - Andmeturbe ülesannetes mõjutab prompti sõnastus ka seda, kas mudel üldse annab sisulise vastuse.
 - Tasuline mudel ei anna igas ülesandes automaatselt paremat vastust, kuid võib pakkuda lisaväärtust pikema konteksti, suuremate kasutuslimiitide või spetsiifiliste funktsioonide kaudu.
 
 ## Praktiline väärtus
 
 Töö tulemused aitavad informaatika üliõpilastel kasutada tehisaru viisil, mis toetab õppimist, mitte ei asenda seda. Kõige kasulikum on tehisaru siis, kui seda kasutatakse mõistete selgitamiseks, lahenduskäigu kontrollimiseks, vigade analüüsimiseks, alternatiivsete lahenduste võrdlemiseks ja oma arusaamise testimiseks.
+
+Täispikk bakalaureusetöö on kättesaadav Tartu Ülikooli arvutiteaduse instituudi lõputööde registris.
