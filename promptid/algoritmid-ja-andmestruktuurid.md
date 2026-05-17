@@ -51,7 +51,7 @@ Soovin aru saada, kuidas ülesanne lahendatakse, mitte ainult lõppvastust saada
 
 Palun:
 1. nimeta kasutatav mõiste, algoritm või omadus;
-2. selgita lahenduskäiku samm-sammult;
+2. selgita lahenduskäiku sammsammult;
 3. põhjenda, miks valitud meetod sobib;
 4. anna lõpus konkreetne vastus;
 5. hoia vastus võimalikult lühike, kuid kontrollitav.
