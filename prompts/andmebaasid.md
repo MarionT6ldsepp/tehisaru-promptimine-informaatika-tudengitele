@@ -6,37 +6,34 @@ Selle näite eesmärk on näidata, et andmebaasi ülesannete puhul on kontekst h
 
 Andmebaasi ülesannetes peab prompt sisaldama piisavalt infot selle kohta, millised tabelid, veerud ja seosed on olemas ning milliseid piiranguid lahenduses järgida tuleb.
 
-## Esialgne prompt
+## Töös kasutatud esialgne prompt
 
 ```txt
 Kirjuta päring, mis väljastaks klubide nimed, kelle liikmete hulgas on mängija(d), kes on mänginud täpselt ühe partii mustadega. Ei tohi kasutada vaatlust ja neid konstante, mida ülesandes pole.
 ```
 
-## Täiustatud prompt
+## Töös kasutatud täiustatud prompt
 
 ```txt
-Ole kogenud andmebaasi arendaja.
+Ole kogenud andmebaasi administraator.
 
 Kontekst: Kasutan järgmist andmebaasi skeemi:
 - Klubid(id, Nimi)
-- Isikud(id, Klubi) – kus Klubi viitab Klubid(id)-le
-- Partiid(id, must, valge) – kus must ja valge viitavad Isikud(id)-le
+- Isikud(id, Klubi) - kus Klubi viitab Klubid(id)-le
+- Partiid(id, must, valge) - kus must ja valge viitavad Isikud(id)-le
 
-Ülesanne:
-Kirjuta SQL-päring, mis väljastab klubide nimed, kelle liikmete hulgas on mängija(d), kes on mänginud täpselt ühe partii mustadega.
+Ülesanne: Kirjuta SQL-päring, mis väljastab klubide nimed, kelle liikmete hulgas on mängija(d), kes on mänginud täpselt ühe partii mustadega.
 
-Piirangud:
-- Ära kasuta vaatlust ehk VIEW-d.
-- Ära kasuta konstantidena väärtusi, mida ülesandes pole mainitud.
-- Ära eelda tabeleid ega veerge, mida skeemis ei ole.
+Piirangud: Ära kasuta vaatlust (VIEW). Ära kasuta konstantidena väärtusi, mida ülesandes pole mainitud.
 
-Väljund:
-Esita SQL-päring ja lisa kuni kolme lause pikkune selgitus, miks päring töötab.
+Formaat: Esita ainult SQL-päring koos lühikese (kuni 3 lauset) selgitusega.
 ```
 
-## Miks täiustatud prompt on parem?
+## Katsetuse tulemus
 
-Esialgne prompt sisaldab ülesande kirjeldust, kuid ei anna mudelile piisavalt infot andmebaasi struktuuri kohta. Selle tulemusena võib mudel teha oletusi tabelite või veergude nimede kohta. Täiustatud prompt lisab skeemi, piirangud ja väljundiformaadi, mistõttu on vastus tõenäolisemalt konkreetse ülesandega kooskõlas.
+Esialgne prompt sisaldas ülesande kirjeldust ja piirangut, kuid ei sisaldanud andmebaasi skeemi. Selle tulemusena tegid osa mudelitest ise oletusi tabelite ja veergude nimede kohta ning koostasid päringuid, mis ei olnud tegeliku andmebaasi jaoks kasutatavad.
+
+Täiustatud prompt lisas andmebaasi skeemi, rolli, ülesande, piirangud ja soovitud väljundiformaadi. Selle tulemusena andsid mudelid funktsionaalselt korrektse lahenduse.
 
 ## Üldine mall andmebaasi ülesande jaoks
 
@@ -62,4 +59,4 @@ Palun:
 
 ## Järeldus
 
-Andmebaasi ülesannetes on prompti kõige olulisem osa kontekst. Mudel ei saa koostada usaldusväärset päringut, kui tal puudub info tegeliku skeemi kohta. Seetõttu tuleks andmebaasiülesannete puhul alati lisada tabelid, veerud, seosed ja piirangud.
+Andmebaasi ülesannetes on prompti kõige olulisem osa kontekst. Mudel ei saa koostada usaldusväärset päringut, kui tal puudub info tegeliku skeemi kohta. Seetõttu tuleks andmebaasi ülesannete puhul alati lisada tabelid, veerud, seosed ja piirangud.
