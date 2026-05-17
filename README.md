@@ -4,8 +4,6 @@ Praktilised promptimise näited, katsetulemused ja soovitused informaatika üli�
 
 See repositoorium koondab praktilisi promptimise näiteid, katsetuste kokkuvõtteid ja soovitusi, mis valmisid minu Tartu Ülikooli informaatika bakalaureusetöö „Tehisaru prompti kirjutamise soovitused informaatika üliõpilastele” raames.
 
-This repository contains Estonian-language prompting examples and findings from a bachelor’s thesis on effective AI use in computer science education.
-
 ## Eesmärk
 
 Repositooriumi eesmärk on näidata, kuidas prompti sõnastus mõjutab tehisaru vastuse kvaliteeti ning kuidas informaatika üliõpilased saavad tehisaru kasutada õppimise toetajana, mitte ainult valmis vastuste saamiseks.
