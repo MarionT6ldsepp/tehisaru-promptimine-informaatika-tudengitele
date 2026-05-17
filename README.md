@@ -16,8 +16,8 @@ Tulemused näitasid, et lihtsate ja konkreetsete küsimuste puhul võib lühike 
 
 ## Sisu
 
-- `tulemused/` – katsetuste peamised tulemused ja järeldused
 - `promptid/` – töös kasutatud promptid ja nende põhjal koostatud praktilised soovitused
+- `tulemused/` – katsetuste peamised tulemused ja järeldused
 - `mallid/` – üldised promptimallid õppimiseks ja ülesannete lahendamiseks
 
 
