@@ -1,8 +1,8 @@
-# Promptimall: kontrolltööks või eksamiks õppimine
+# Prompti mall: kontrolltööks või eksamiks õppimine
 
 ## Eesmärk
 
-Seda promptimalli saab kasutada aktiivseks kordamiseks. Eesmärk ei ole lihtsalt konspekti uuesti lugeda, vaid meenutada õpitut ise, sõnastada vastuseid ja saada tehisarult kohest tagasisidet.
+Seda prompti malli saab kasutada aktiivseks kordamiseks. Eesmärk ei ole lihtsalt konspekti uuesti lugeda, vaid meenutada õpitut ise, sõnastada vastuseid ja saada tehisarult kohest tagasisidet.
 
 ## Promptimall
 
