@@ -1,8 +1,8 @@
-# Promptimall: vea analüüs
+# Prompti mall: vea analüüs
 
 ## Eesmärk
 
-Seda promptimalli saab kasutada olukorras, kus lahendus, kood, arvutus või mõttekäik ei tööta ootuspäraselt. Eesmärk ei ole lasta mudelil kogu töö kasutaja eest ümber teha, vaid mõista, kus viga tekib ja kuidas seda tulevikus vältida.
+Seda prompti malli saab kasutada olukorras, kus lahendus, kood, arvutus või mõttekäik ei tööta ootuspäraselt. Eesmärk ei ole lasta mudelil kogu töö kasutaja eest ümber teha, vaid mõista, kus viga tekib ja kuidas seda tulevikus vältida.
 
 ## Promptimall
 
