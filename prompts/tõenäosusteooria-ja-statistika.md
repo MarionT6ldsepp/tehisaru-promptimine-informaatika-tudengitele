@@ -2,46 +2,49 @@
 
 ## Eesmärk
 
-Selle näite eesmärk on näidata, et matemaatikaülesannetes ei ole õppimise seisukohalt piisav ainult õige lõppvastus. Tudeng vajab ka lahenduskäiku, kasutatud valemeid ja põhjendusi, et oma arusaamist kontrollida.
+Selle näite eesmärk on näidata, et matemaatika ülesannetes ei ole õppimise seisukohalt piisav ainult õige lõppvastus. Üliõpilane vajab ka lahenduskäiku, kasutatud valemeid ja põhjendusi, et oma arusaamist kontrollida.
 
-Bakalaureusetöö katsetustes ilmnes, et matemaatikaülesande puhul võisid mudelid anda õige lõppvastuse ka lihtsale promptile. Erinevus avaldus eelkõige vastuse õpiväärtuses: põhjalikum prompt andis paremini jälgitava lahenduskäigu.
+Bakalaureusetöö katsetustes ilmnes, et matemaatika ülesande puhul võisid mudelid anda õige lõppvastuse ka lihtsale promptile. Erinevus avaldus eelkõige vastuse õpiväärtuses: põhjalikum prompt andis paremini jälgitava lahenduskäigu.
 
-## Üldine prompt
+## Töös kasutatud esialgne prompt
 
 ```txt
-Lahenda järgmine tõenäosusteooria ülesanne: [lisa ülesande tekst]
+Olgu X ~ U(-10,10). Leida tõenäosus P(k < X < k+4), kus -10 < k < k+4 < 10.
 ```
 
-## Täiustatud prompt
+## Töös kasutatud täiustatud prompt
 
 ```txt
-Käitu matemaatika õppejõuna ja aita mul lahendada järgmine tõenäosusteooria ülesanne.
+Ole matemaatika õppejõud, kes selgitab üliõpilasele lahenduskäiku.
+
+Ülesanne: Olgu X ~ U(-10,10). Leida tõenäosus P(k < X < k+4), kus -10 < k < k+4 < 10.
+
+Selgita lahendus samm-sammult järgmises järjekorras:
+
+1. Defineeri jaotus ja kirjuta tihedusfunktsioon
+2. Püstita integraal
+3. Arvuta integraal
+4. Esita lõplik vastus murruna ja kümnendmurruna
+
+Ära jäta ühtegi vahesammu vahele.
+```
+
+## Katsetuse tulemus
+
+Mõlema prompti puhul olid vastused faktiliselt õiged. Oluline erinevus ilmnes aga vastuse asjakohasuses, täielikkuses ja õppimisväärtuses.
+
+Esialgse promptiga said mudelid küll õige vastuse, kuid lahenduskäik ei olnud alati struktureeritud viisil, mis toetaks üliõpilase arusaamist. Täiustatud promptiga esitasid kõik mudelid detailse lahenduskäigu koos põhjendustega, mida saab kasutada õppematerjalina.
+
+## Lühem õppimiseks sobiv prompt
+
+```txt
+Lahenda järgmine ülesanne samm-sammult. Näita kasutatud valemit, olulisi vaheetappe ja lõppvastust nii murruna kui ka kümnendmurruna.
 
 Ülesanne:
 [lisa ülesande tekst]
-
-Palun:
-1. too välja, millist tõenäosusteooria mõistet või valemit kasutad;
-2. lahenda ülesanne samm-sammult;
-3. selgita iga vaheetapi tähendust;
-4. anna lõpus lõppvastus;
-5. lisa lühike kontroll, miks vastus on loogiline.
 ```
 
-## Lühem õppimiseks sobiv variant
-
-```txt
-Lahenda ülesanne samm-sammult ja näita iga sammu juures kasutatud valemit. Ära anna ainult lõppvastust.
-
-Ülesanne:
-[lisa ülesande tekst]
-```
-
-## Miks täiustatud prompt on parem?
-
-Lühike prompt võib anda korrektse vastuse, kuid tudeng ei pruugi aru saada, kuidas tulemuseni jõuti. Täiustatud prompt aitab muuta lahenduskäigu nähtavaks ning võimaldab kontrollida, kas kasutatud valemid ja vaheetapid on õiged.
-
-## Üldine mall matemaatikaülesande jaoks
+## Üldine mall matemaatika ülesande jaoks
 
 ```txt
 Käitu [matemaatika/statistika/tõenäosusteooria] õppejõuna.
@@ -63,4 +66,4 @@ Palun:
 
 ## Järeldus
 
-Matemaatikaülesannetes parandab prompti täpsustamine eelkõige vastuse õpiväärtust. Õige lõppvastus ei tähenda automaatselt, et vastus aitab õppida. Õppimiseks on oluline, et mudel näitaks ka lahenduskäiku, vaheetappe ja kasutatud valemeid.
+Matemaatika ülesannetes parandab prompti täpsustamine eelkõige vastuse õpiväärtust. Õige lõppvastus ei tähenda automaatselt, et vastus aitab õppida. Õppimiseks on oluline, et mudel näitaks ka lahenduskäiku, vaheetappe ja kasutatud valemeid.
