@@ -2,23 +2,29 @@
 
 ## Eesmärk
 
-Selle näite eesmärk on näidata, et vastuse mahu piiramine võib olla kasulik, kuid ainult juhul, kui kasutaja oskab vastust ise kontrollida. Kui küsida mudelilt ainult lõppvastust, võib vale või puudulik lahendus jääda märkamata.
+Selle näite eesmärk on näidata, et lihtsa ja konkreetse küsimuse puhul ei pruugi pikk prompt olla vajalik. Samas võib vastuse liigse lühendamise korral väheneda vastuse kontrollitavus.
 
 Algoritmide ja andmestruktuuride ülesannetes on õppimise seisukohalt oluline näha lisaks vastusele ka põhjendust: millist omadust, algoritmi või meetodit kasutati ning miks see konkreetse ülesande puhul sobib.
 
-## Esialgne prompt
+## Töös kasutatud esialgne prompt
 
 ```txt
 Milline on vähim toespuude arv, mis saab olla sidusal graafil, kus on 10 tippu ja 10 serva?
 ```
 
-## Täiustatud prompt: kiire vastus
+## Töös kasutatud täiustatud prompt
 
 ```txt
 Milline on vähim toespuude arv, mis saab olla sidusal graafil, kus on 10 tippu ja 10 serva? Anna ainult vastus.
 ```
 
-## Täiustatud prompt: õppimiseks sobivam variant
+## Katsetuse tulemus
+
+Esialgse prompti korral vastasid kolm mudelit neljast õigesti. Vastused olid aga sageli pikemad, kui ülesande eesmärk nõudis.
+
+Täiustatud prompt vähendas vastuse mahtu, kuid muutis lahenduse kontrollimise keerulisemaks. Kui mudelilt küsida ainult lõppvastust, ei ole kasutajal võimalik näha, millisele seosele mudel vastuse tugines. Seetõttu võib vale vastus jääda kergemini märkamata.
+
+## Õppimiseks sobivam prompt
 
 ```txt
 Lahenda järgmine graafiteooria ülesanne.
@@ -32,11 +38,7 @@ Palun:
 4. hoia vastus võimalikult lühike, kuid kontrollitav.
 ```
 
-## Miks täiustatud prompt on parem?
-
-Esialgne prompt võib anda küll õige vastuse, kuid õppimise seisukohalt ei pruugi sellest piisata. Täiustatud prompt suunab mudelit esitama lühikese lahenduskäigu, mille põhjal saab tudeng kontrollida, kas vastuseni jõuti õigel viisil.
-
-## Üldine mall algoritmiülesande jaoks
+## Üldine mall algoritmide ja andmestruktuuride ülesande jaoks
 
 ```txt
 Käitu informaatika õppejõuna.
