@@ -4,7 +4,7 @@
 
 Seda prompti malli saab kasutada olukorras, kus lahendus, kood, arvutus või mõttekäik ei tööta ootuspäraselt. Eesmärk ei ole lasta mudelil kogu töö kasutaja eest ümber teha, vaid mõista, kus viga tekib ja kuidas seda tulevikus vältida.
 
-## Promptimall
+## Prompti mall
 
 ```txt
 Käitu juhendajana, kes aitab mul viga mõista.
