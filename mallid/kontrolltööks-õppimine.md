@@ -4,7 +4,7 @@
 
 Seda prompti malli saab kasutada aktiivseks kordamiseks. Eesmärk ei ole lihtsalt konspekti uuesti lugeda, vaid meenutada õpitut ise, sõnastada vastuseid ja saada tehisarult kohest tagasisidet.
 
-## Promptimall
+## Prompti mall
 
 ```txt
 Käitu õppejõu või juhendajana, kes aitab mul kontrolltööks või eksamiks õppida.
